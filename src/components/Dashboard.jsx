@@ -14,7 +14,7 @@ const Dashboard = () => {
                 <div className="w-auto flex items-center justify-between px-6 pt-6 bg-white h-auto border-b border-gray-200 rounded-xl mx-12 mt-3">
                     <FormSelector />
                 </div>
-                <div className="flex w-full py-6 border-l gap-24 border-gray-100 h-auto items-start justify-center ">
+                <div className="flex sm:flex-row flex-col w-full py-6 border-l gap-24 border-gray-100 h-auto items-start justify-center ">
                     <DynamicForm setPreviewRef={setPreviewRef} />
                     <FormPreview previewRef={previewRef} />
                 </div>
