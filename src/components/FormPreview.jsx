@@ -23,7 +23,7 @@ const FormPreview = ({ previewRef }) => {
   const dynamicFields = state.selectedForm?.dynamicFields || [];
 
   return (
-    <div className="h-full w-[700px] bg-white p-6 shadow-sm rounded-xl" dir="rtl">
+    <div className="h-full sm:w-[700px] w-full bg-white p-6 shadow-sm rounded-xl" dir="rtl">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-xl font-semibold">معاينة النموذج</h2>
         <button
